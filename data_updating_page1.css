@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #00131d;
+  
+}  
+
+.college_name_container{
+    display: flex;
+    margin: 5px 0px;
+   justify-content: center;
+   
+     
+}
+.college_name_container img{
+    width: 87px;
+    height: 161px;
+}
+.college_name_container p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #119696;
+}
+
+.update_title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+.form-container{
+    background-color: white !important;
+    width:426px;
+    margin:35px auto;
+    border-radius:5px;
+    box-shadow: -18px 19px 14px -5px #0c2e5e;
+    padding: 30px 10px;
+}
+ 
+.form-container h3{
+    text-align:center;
+    padding-top:10px;
+    color: #0c2e5e;
+    margin-bottom: 10px;
+}
+
+.form-container input[type=text] ,.form-container input[type=submit] .form-container input[type=password]:focus{
+ outline:none;
+  
+}
+.form-container input[type=number]:focus{
+    outline:none;
+}
+
+label{
+    color: #00131d;
+    font-weight:600;
+    font-size:18px;
+}
+.form-container input[type=text] ,.form-container input[type=email], .form-container input[type=number]{
+    padding:5px 2px;
+}
+ 
+.form-container input[type=submit]{
+    padding:5px 19px;
+    cursor: pointer;
+    
+    border-radius:5px;
+
+     
+}
+.btn-grp{
+    margin: 5px auto;
+}
+ 
+    
+#form_table_1{
+    margin:5px auto;
+}
+ 
+#form_table_1 td{
+    text-align: end;
+    padding:10px 10px;
+    
+}
+.del-btn{
+    margin-left: 20px;
+
+}
+#insert_btn{
+    background-color:#000070;
+    border: 1px solid #000070 ;
+    color: white;
+}
+#update_btn{
+    background-color:#006e3b;
+    border: 1px solid #006e3b ;
+    color: white;
+}
+
+
+#delete_btn{
+    background-color:#8f0000;
+    border: 1px solid #8f0000 ;
+    color: white;
+}
+
+
+
+
+
+@media(max-width:550px){
+    .college_name_container p{
+        margin-top: 30px;
+    }
+    .college_name_container p {
+        font-size:13px;
+    }
+    .college_name_container img {
+        width: 72px;
+        height: 85px;
+    }
+    .update_title {
+        font-size: 18px;
+        
+    }
+    .form-container{
+        width: 83%;
+    }
+    label {
+        font-size: 14px;
+    }
+    input[type=number] {
+        padding: 3px 2px;
+    }
+    .form-container{
+        padding:14px 10px;
+    }
+}
+

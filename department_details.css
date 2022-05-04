@@ -1,0 +1,115 @@
+body{
+    background-color: #00131d;
+   
+}  
+.dep_main_container{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.college_name_container{
+    display: flex;
+    margin: 5px 0px;
+   justify-content: center;
+    width: 100%;
+}
+.college_name_container img{
+    width: 87px;
+    height: 161px;
+}
+.college_name_container p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #119696;
+}
+
+
+.dep_title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.dep_name_container  .dep_name button{
+    font-weight: 600;
+    padding: 6px 19px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.dep_name_container{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    justify-content: center;
+}
+.dep_name_container  .dep_name{
+    padding: 50px;
+}
+.dropdown_content {
+    text-align: center;
+    background-color: white;
+    margin-top: 9px;
+    display: none;
+  
+     
+   
+}
+.dropdown_content a{
+    display: block;
+    text-decoration: none;
+    color: #041721;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.dropdown_content a:nth-child(even){
+    background-color: #818a8f;
+
+}
+.dep_name:hover .dropdown_content{
+    display: block;
+     
+}
+.dropdown_content a:hover{
+    opacity: 0.7;
+}
+
+.footer p{
+   
+    color: #00131d;
+}
+
+
+
+/* @media (max-width:550px) {
+    .college_name_container p{
+        font-size:13px;
+
+    }
+    .dep_title {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .dep_name_container .dep_name button {
+        font-size: 17px;
+    }
+    .college_name_container img {
+        width: 87px;
+        height: 147px;
+    }
+    .dep_name_container .dep_name {
+        padding: 24px;
+    }
+    
+} */
+
+

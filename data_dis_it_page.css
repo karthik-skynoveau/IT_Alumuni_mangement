@@ -1,0 +1,202 @@
+/* db table */
+body{
+    background-color: #00131d; 
+}  
+
+
+.college_name_container{
+    display: flex;
+    margin: 5px 0px;
+   justify-content: center;
+    width: 100%;
+}
+.college_name_container img{
+    width: 87px;
+    height: 161px;
+}
+.college_name_container p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #119696;
+}
+
+.dep_title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align:center;
+}
+
+
+.update_button_contaniner{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;  
+}
+.update_button_contaniner a{
+    text-decoration: none;
+}
+.update_button_contaniner button{
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #00131d;
+    font-weight: 700;
+    cursor: pointer;
+   display: flex;
+   padding: 5px 15px;
+}
+
+
+
+
+.server_data{
+    width: 100%;
+    margin-top:20px;
+}
+
+
+.db_tabel_main_it{
+    border-collapse: collapse;
+    width:100%;
+    font-size: 20px;
+}
+.db_tabel_it{
+    padding: 90px 80px;
+    color: #1a3f51;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    height: auto;
+    
+}
+.db_tabel_main_it th{
+    color: #033750;
+    font-size:25px;
+}
+.db_tabel_it td ,th{
+    padding:15px;
+    border: 2px solid black;
+}
+.db_tabel_main_it tr{
+    background-color: #dddddd;
+}
+
+
+
+
+@media (max-width:900px){
+    .college_name_container{
+        margin: 5px 0px;
+       justify-content: center;
+    }
+    .college_name_container img{
+        width: 51px;
+        height: 90px;
+    }
+    .college_name_container p{
+        margin-top:32px;
+        text-align: center;
+        font-size:16px;
+        font-weight: bold;
+        color: #119696;
+    } 
+
+
+    .db_tabel_main_it{
+        border-collapse: collapse;
+        width:100%;
+        font-size: px;
+    }
+    .db_tabel_main_it th{
+        color: #033750;
+        font-size:15px;
+    }
+    .db_tabel_it td ,th{
+        padding:15px;
+        border: 2px solid black;
+    }
+
+
+    .dep_title{
+        font-size: 17px;
+    }
+
+
+    .update_button_contaniner button{
+        font-size:14px;
+        padding: 7px 22px;
+    }
+    .update_button_contaniner{
+        margin-right:2px;
+    }
+
+
+    .server_data{
+        margin-top:13px;
+    }
+}
+
+
+
+
+@media (max-width:550px) {
+    .college_name_container{
+        margin: 5px 0px;
+       justify-content: center;
+    }
+    .college_name_container img{
+        width: 51px;
+        height: 90px;
+    }
+    .college_name_container p{
+        margin-top:32px;
+        text-align: center;
+        font-size:12px;
+        font-weight: bold;
+        color: #119696;
+    } 
+
+
+    .db_tabel_main_it{
+        border-collapse: collapse;
+        width:100%;
+        font-size: 8px;
+    }
+    .db_tabel_main_it th{
+        color: #033750;
+        font-size:8px;
+    }
+    .db_tabel_it td ,th{
+        padding:8px;
+        border: 2px solid black;
+    }
+
+
+    .dep_title{
+        font-size: 14px;
+    }
+
+
+    .update_button_contaniner button{
+        font-size:9px;
+        padding: 5px 14px;
+    }
+    .update_button_contaniner{
+        margin-right:2px;
+    }
+
+
+    .server_data{
+        margin-top:13px;
+    }
+    
+}
+
+
+
+
